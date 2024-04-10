@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0>">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <div>
+            <label for="name">Name</label>
+            <br>
+            <input type="text" name="name" id="name" value="Tymek">
+        </div>
+        <div>
+            <label for="pass">Password</label>
+            <br>
+            <input type="password" name="pass" id="pass" maxlength="10" minlength="1" required>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email" placeholder="Boria here is the mail" disabled>
+        </div>
+        <div>
+            <label for="info">Tell about yourself</label>
+            <br>
+            <textarea name="info" id="info" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="Peremoga">Peremoga</label>
+            <input type="radio" name="Zrada" id="Peremoga" value="Peremoga">
+            <br>
+            <label for="Zrada">Zrada</label>
+            <input type="radio" name="Zrada" id="Zrada" value="Zrada" checked>
+            <br>
+        </div>
+        <div>
+            <h3>Хто найкращий президент?</h3>
+            <label for="Ze">Zelenyi</label>
+            <input type="checkbox" name="president" id="Ze" value="Ze">
+            <br>
+            <label for="PPO">Poroshenko(roshen)</label>
+            <input type="checkbox" name="president" id="PPO" value="Poroh">
+            <br>
+            <label for="Yanyk">Yanyk</label>
+            <input type="checkbox" name="president" id="Yanyk" value="Yanyk">
+        </div>
+        <div>
+            <label for="birth">When is your birthday?</label>
+            <input type="date" name="birth" id="birth" value="">
+        </div>
+        <div>
+            <label for="phone">Phone number</label>
+            <input type="number" name="phone" id="phone">
+        </div>
+        <div>
+            <label for="foto">Foto</label>
+            <input type="file" name="foto" id="foto">
+        </div>
+        <div>
+            <label for="country">Your country</label>
+            <select name="country" id="country">
+                <option value="pick" selected disabled>Pick a country</option>
+                <option value="usa">Omerika</option>
+                <option value="ua">Ukroreich</option>
+                <option value="pl">Polunytsia</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Send</button>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+</body>
+</html>
