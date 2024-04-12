@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form action="#">
+            <div>
+                <label for="name">Імʼя:</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div>
+                <label for="mail">Пошта:</label>
+                <input type="email" name="mail" id="mail" required>
+            </div>
+            <div>
+                <label for="pass">Пароль:</label>
+                <input type="password" name="pass" id="pass" required>
+            </div>
+            <div>
+                <label for="passConfirm">Підтвердіть пароль:</label>
+                <input type="password" name="pass" id="passConfirm" required>
+            </div>
+            <div>
+                <label for="man">Чоловік</label>
+                <input type="radio" name="sex" id="man" value="man">
+                <label for="woman">Жінка</label>
+                <input type="radio" name="sex" id="woman" value="woman">
+            </div>
+            <div>
+                <label for="age">Вік</label>
+                <input type="number" name="age" id="age">
+            </div>
+            <div>
+                <select>
+                    <option value="pick" disabled selected>Виберіть курс</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+            <div>
+                <label for="home">Повна адреса</label>
+                <textarea name="home" id="home" cols="30" rows="5" placeholder="Ваша адреса"></textarea>
+            </div>
+            <div>
+                <button type="reset">Скинути</button>
+                <button type="submit">Відправити</button>
+            </div>
+        </form>
+    </body>
+</html>
