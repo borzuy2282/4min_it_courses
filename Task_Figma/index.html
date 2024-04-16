@@ -4,44 +4,98 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Xbob</title>
+    <link rel="stylesheet" href="../css_reset/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
 <!--tut logo-->
             <nav>
                 <ul>
-                    <li><a href="#Home">Home</a></li>
-                    <li><a href="#AboutUs">About us</a></li>
-                    <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contacts">Contacts</a></li>
+                    <li class="header_nav_ul_text"><a href="#Home">Home</a></li>
+                    <li class="header_nav_ul_text"><a href="#AboutUs">About us</a></li>
+                    <li class="header_nav_ul_text"><a href="#Advantage">Skills</a></li>
+                    <li class="header_nav_ul_text"><a href="#Projects">Projects</a></li>
+                    <li class="header_nav_ul_text header_text2"><a href="#Contacts">Contacts</a></li>
                 </ul>
             </nav>
-            <hr>
         </header>
     </div>
 
     <main>
         <div class="wrapper">
-            <div id="Home">
-                <h2>Xbox</h2>
+            <article class="articles article1" id="Home">
+                <h1 class="sect1">XBOX</h1>
                 <img src="img/xboxLogo.png" alt="xbox logo">
-            </div>
+            </article>
         </div>
         <div class="bg">
             <div class="wrapper">
-                <article id="AboutUs">
-                    <h2>About us</h2>
+                <article class="articles about_us" id="AboutUs">
+                    <h2 class="sect2 h2_style">About us</h2>
                     <div>
-                        <p>At Xbox, we're passionate about gaming and dedicated to creating exceptional entertainment experiences for players worldwide</p>
-                        <p>Our mission is to push the boundaries of gaming technology, delivering cutting-edge hardware, immersive gaming libraries, and a vibrant online community.</p>
-                        <p>Xbox is where gamers come together, where innovation and excitement converge, and where unforgettable adventures await. Join us on the journey to elevate gaming to new heights.</p>
+                        <p class="par_about_us">At Xbox, we're passionate about gaming and dedicated to creating exceptional entertainment experiences for players worldwide</p>
+                        <p class="par_about_us">Our mission is to push the boundaries of gaming technology, delivering cutting-edge hardware, immersive gaming libraries, and a vibrant online community.</p>
+                        <p class="par_about_us">Xbox is where gamers come together, where innovation and excitement converge, and where unforgettable adventures await. Join us on the journey to elevate gaming to new heights.</p>
                     </div>
                 </article>
             </div>
         </div>
+        <div class="wrapper">
+            <article class="articles" id="Advantage">
+                <h2 class="sect3 h2_style">Advantage</h2>
+                <div>
+                    <h3>Power</h3>
+                    <h3>Price</h3>
+                    <h3>Community</h3>
+                    <h3>Clarity</h3>
+                </div>
+            </article>
+        </div>
+        <div class="bg">
+            <div class="wrapper">
+                <section class="articles" id="Projects">
+                    <h2 class="sect4 h2_style">Projects</h2>
+                    <div>
+                        <div>
+                            <img src="img/series_s.png" alt="series s">
+                            <p>Xbox series s</p>
+                        </div>
+                        <div>
+                            <img src="img/series_x.png" alt="series x">
+                            <p>Xbox series x</p>
+                        </div>
+                        <div>
+                            <img src="img/game_pass.png" alt="gamepass">
+                            <p>Game pass</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
     </main>
+    <div class="wrapper">
+        <footer>
+            <div class="articles" id="Contacts">
+                <div>
+                    <h2 class="sect5 h2_style">Contacts</h2>
+                    <p>Want to know more or just chat?</p>
+                    <p>You are welcome!</p>
+                </div>
+                <div>
+                    <button type="submit">Send message</button>
+                </div>
+                <div>
+                    <a href="https://linkedin.com" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                    <a href="https://instagram.com" target="_blank" ><i class="fa fa-instagram"></i></a>
+                    <a href="https://web.telegram.org" target="_blank"><i class="fa fa-telegram"></i></a>
+                    <a href="https://www.nba.com" target="_blank"><i class="fa-solid fa-basketball"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
 
 </body>
 </html>

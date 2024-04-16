@@ -1,0 +1,27 @@
+.wrapper{
+    max-width: 936px;
+    margin: 0 auto;
+    cursor: crosshair;
+}
+
+
+.par{
+    color: rgb(118, 190, 121);
+    font-size: 24px;
+    font-weight: 800;
+    font-family: sans-serif;
+    margin-bottom: 30px;
+}
+.par2{
+    margin-bottom: 0;
+}
+
+.block{
+    width: 500px;
+    height: 500px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 50px 10px 30px 40px;
+    padding: 20px 30px;
+}
