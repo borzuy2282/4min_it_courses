@@ -1,0 +1,87 @@
+div{
+    margin: 20px;
+}
+*{
+    font-size: 150px;
+}
+
+/*Mentioned by tag*/
+p{
+    color: brown;
+}
+
+/*Mentioned by id*/
+#text{
+    font-size: large;
+}
+
+/*Mentioned by class*/
+.hello{
+    margin: 20px;
+}
+
+.block{
+    margin: 20px;
+}
+
+.block .block_text{
+    color: green;
+}
+
+span + h1{
+    font-size: 24px;
+}
+
+.block2{
+    background-color: blue;
+    width: 400px;
+    height: 400px;
+}
+
+.block2:hover{
+    background-color: yellow;
+    cursor: crosshair;
+}
+
+.link{
+    cursor: pointer;
+}
+.link:link{
+    color: brown;
+}
+.link:visited{
+    color: blue;
+}
+
+.cont_item{
+    font-size: 24px;
+}
+
+.cont_item:first-child{
+    font-size: 28px;
+}
+.name{
+    width: 50px;
+    height: 30px;
+}
+
+.name:focus{
+    background-color: aqua;
+}
+
+.psevdo::first-line{
+    text-decoration: underline;
+}
+
+.psevdo::first-letter{
+    font-size: 36px;
+}
+
+.psevdo::before{
+    content: "1";
+}
+
+.psevdo::after{
+    content: "2";
+}
+
