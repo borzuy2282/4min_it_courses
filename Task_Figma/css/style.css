@@ -75,3 +75,67 @@
 .articles{
     text-align: center;
 }
+.articles_advantage{
+    margin: 91px 602px 142px 400px;
+    text-align: center;
+}
+.text_about_us{
+    margin-top: 82px;
+    font-size: 32px;
+    text-align: center;
+    padding-left: 32px;
+}
+.h3_about_us{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.article_projects{
+    padding-top: 20px;
+    padding-bottom: 89px;
+}
+
+.sect4{
+    margin-top: 118px;
+    margin-bottom: 67px;
+}
+.img_and_text{
+    margin-bottom: 116px;
+}
+.img_projects{
+    margin-bottom: 12px;
+}
+.text_projects{
+    font-size: 20px;
+}
+.footer{
+    padding-top: 100px;
+}
+
+.contacts{
+    margin: 10px 0 86px 0;
+}
+.sect5{
+    margin-bottom: 21px;
+}
+.text_footer{
+    font-size: 18px;
+}
+.button_div{
+    margin-bottom: 20px;
+}
+.button_button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.icons_footer{
+    margin-top: 50px;
+    padding-bottom: 167px;
+}
+.icons{
+    margin: 10px 10px 10px 10px;
+}
