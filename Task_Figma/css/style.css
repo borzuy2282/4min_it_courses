@@ -40,10 +40,6 @@
     padding-top: 35px;
     width: 322.15px;
     height: 64.28px;
-    left: 0.54%;
-    right: 64.78%;
-    top: -285.71%;
-    bottom: 372.38%;
 }
 .about_us{
     padding: 60px 0 80px 40px;
@@ -51,19 +47,11 @@
 .sect2{
     width: 201px;
     height: 42.52px;
-    left: 380px;
-    right: 864px;
-    top: -131.14%;
-    bottom: 222.92%;
     margin: 86px 300px 42px 355px;
 }
 .par_about_us{
     width: 700px;
     height: 50px;
-    left: 131px;
-    right: 614px;
-    top: -593px;
-    bottom: 1060px;
     color: rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 400;
