@@ -1,6 +1,7 @@
 .header{
     background-color: rgb(163, 200, 255);
     padding-top: 36px;
+    text-align: center;
 }
 .header_h1{
     margin: 27px 322px;
@@ -8,6 +9,9 @@
     font-size: 24px;
     width: 793px;
     height: 82px;
+}
+.main{
+    background-color: rgb(238, 231, 235);
 }
 .products{
     margin-top: 20px;
@@ -18,12 +22,20 @@
     background-color: rgb(136, 131, 158);
     margin: 0 auto;
     height: 45px;
+    cursor: pointer;
+}
+.block:hover{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: rgb(98, 94, 119);
 }
 .checkbox{
     margin: 12px;
+
 }
 .checkbox:checked ~ label{
     text-decoration:line-through;
+    color: lightgray;
 }
 .text_product{
     color: white;
@@ -32,6 +44,12 @@
 .block:nth-child(even){
     background-color: rgb(122, 117, 147);
 }
+.footer{
+    background-color: rgb(238, 231, 235);
+    margin: 0 auto;
+    width: 534px;
+    height: 45px;
+}
 .but_submit{
     background-color: rgb(163, 200, 255);
     font-size: 18px;
@@ -39,5 +57,4 @@
     width: 534px;
     height: 45px;
     text-align: center;
-    margin: 0 auto 0 127px;
 }
