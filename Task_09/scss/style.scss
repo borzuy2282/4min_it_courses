@@ -1,0 +1,47 @@
+@import "variable";
+
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin text-size{
+  height: 300px;
+  font-size: 24px;
+}
+
+@mixin text($fs, $color){
+  font-size: $fs;
+  color: $color;
+}
+
+.block{
+  width: 500px;
+  height: 300px;
+  border: 2px solid black;
+  background-color: $maincolor;
+  @include flex-center;
+
+  .block_item{
+    width:300px;
+    height: 300px;
+    background-color: aqua;
+
+    &:hover{
+      background-color: $bg;
+    }
+  }
+}
+
+.block2{
+
+  padding: 20px;
+  border: 2px solid black;
+
+  &_text {
+    padding: 10px;
+    @include text(24px, red);
+    @include flex-center;
+  }
+}
